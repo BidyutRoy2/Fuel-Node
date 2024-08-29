@@ -91,13 +91,14 @@ cp -r chain-configuration/ignition/* ~/.fuel-testnet/
 screen -S fuel-node
 ```
 
-### Run Node
+### Run Node Edit and Past Your Terminal
+
 #### Note: Change the `NODENAME`, `P2P-SECRET`, `Sepolia-ETH-RPC-ENDPOINT` values to your own.
 ```bash
 fuel-core run \
---service-name=`NODENAME` \
---keypair `P2P-SECRET` \
---relayer `Sepolia-ETH-RPC-ENDPOINT` \
+--service-name=YourNODENAME \
+--keypair YourPrivateKey \
+--relayer sepoliaalchemyURL \
 --ip=0.0.0.0 --port=4000 --peering-port=30333 \
 --db-path ~/.fuel-testnet \
 --snapshot ~/.fuel-testnet \
