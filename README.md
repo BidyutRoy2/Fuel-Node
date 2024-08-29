@@ -54,6 +54,10 @@ rustup --version
 curl https://install.fuel.network | sh
 source /root/.bashrc
 ```
+```
+source ~/.bashrc
+```
+
 <img width="349" alt="Ekran Resmi 2024-08-23 14 02 04" src="https://github.com/user-attachments/assets/24ecc340-5378-439a-a75e-5752da1ee6d9">
 
 #### Check the fuelup to make sure it is installed correctly:
